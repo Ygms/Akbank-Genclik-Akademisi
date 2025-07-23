@@ -1,0 +1,4 @@
+1-SELECT rating FROM film GROUP BY rating;
+2-SELECT replacement_cost, COUNT(*) FROM film GROUP BY replacement_cost HAVING COUNT(*) > 50;
+3- 1 için 326, 2 için 273
+4-country id 44 şehir sayısı 60
